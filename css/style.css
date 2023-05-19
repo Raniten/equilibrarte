@@ -7,12 +7,17 @@
 
   .nav-container {
     background-color: #3c4042;
+    position: fixed;
+    top: 0;
+    
   }
 
   .logo-equilibrarte {
-    width: 2vw;
+    /*width: 2vw;*/
+    height: 50px;
+    
   }
   
   .logo-equilibrarte:hover {
-    filter: brightness(120%) !important;
+    filter: brightness(180%) !important;
   }
