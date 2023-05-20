@@ -3,21 +3,39 @@
     padding: 0;
     box-sizing: border-box;
     /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
-  }
+}
 
-  .nav-container {
-    background-color: #3c4042;
-    position: fixed;
-    top: 0;
-    
-  }
+header {
+    background-color: #535758;
+   
+}
 
-  .logo-equilibrarte {
-    /*width: 2vw;*/
-    height: 50px;
-    
-  }
   
-  .logo-equilibrarte:hover {
-    filter: brightness(180%) !important;
-  }
+.logo-equilibrarte {
+  /*width: 2vw;*/
+  height: 50px;
+    
+}
+  
+
+
+.text-andika {
+  font-family: 'Andika', sans-serif;
+  color: rgb(150, 218, 159);
+}
+
+.text-andika:hover {
+  color:rgb(191, 236, 197) !important;
+}
+
+li:hover {
+  transition: all 0.5s;
+  transform: scale(1.03);
+
+}
+
+a.navbar-brand:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  filter: brightness(150%) !important;
+}
