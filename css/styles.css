@@ -7,17 +7,18 @@
 
 header {
     background-color: #535758;
-   
-}
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 
+}
   
 .logo-equilibrarte {
-  /*width: 2vw;*/
   height: 50px;
-    
 }
-  
-
 
 .text-andika {
   font-family: 'Andika', sans-serif;
@@ -31,11 +32,26 @@ header {
 li:hover {
   transition: all 0.5s;
   transform: scale(1.03);
-
 }
 
 a.navbar-brand:hover {
   transition: all 0.5s;
   transform: scale(1.1);
   filter: brightness(150%) !important;
+}
+
+.carousel-size img {
+  position: absolute;
+  overflow: hidden;
+  top: -30px;
+  width: 100vw;
+  filter: brightness(60%);
+}
+
+.carrusel {
+  position: relative;
+  top: 76px;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0;
 }
