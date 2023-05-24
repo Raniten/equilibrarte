@@ -66,10 +66,10 @@ a.navbar-brand:hover {
 
 .carousel-caption {
   position: relative;
-  margin-left: 45%;
+  margin-left: 40%;
   margin-top: 25%;
   height: 30%;
-  width: 35%;
+  width: 40%;
   text-align: right !important;
   
 }
@@ -80,5 +80,5 @@ a.navbar-brand:hover {
 }
 
 .txtCarousel-desc {
-  font-size: 0.9vw !important;
+  font-size: 1.2vw !important;
 }
